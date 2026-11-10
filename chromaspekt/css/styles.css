@@ -1,1 +1,56 @@
+html,
+body {
+    background-color: #000000 !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+#main-wrapper {
+    background: none;
+}
+
+#csklogo {
+    width: 400px;
+    max-width: 100%;
+    margin-top: 75px;
+}
+
+h3,
+h4,
+p,
+li {
+    color: #fff
+}
+
+p {
+    font-weight: 100;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+#copyright {
+    font-size: 11px;
+}
+
+.mail,
+h4 {
+    color: #FF595E;
+}
+
+footer {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF595E
+}
